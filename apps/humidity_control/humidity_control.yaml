@@ -1,0 +1,6 @@
+humidity_control:
+  module: humidity_control
+  class: HumidityControl
+  temperature_sensor: sensor.temperature
+  humidity_sensor: sensor.humidity
+  dehumidifier_switch: switch.dehumidifier
